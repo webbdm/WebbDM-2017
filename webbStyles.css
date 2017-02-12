@@ -1,0 +1,103 @@
+body {
+
+	background: url(images/gsmbackground.png) no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+
+
+header {
+	text-align: center;
+	margin-top: 30px;
+}
+
+header img {
+	height: 150px;
+	width: auto;
+	margin-top: 40px;
+}
+
+nav {
+
+}
+
+nav a {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+h1 {
+	text-align: center;
+	color: gray;
+	font-family: verdana;
+}
+
+.flex-body {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 60px 70px;
+	justify-content: space-between;
+}
+
+.bio {
+
+	background-color: none;
+	margin-right: 10px;
+	max-width: 40%;
+
+
+}
+
+.bio img {
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 7px;
+	margin-right: 7px;
+	margin-bottom: 1px;
+}
+
+.future {
+	width: 400px;
+}
+
+.future section {
+	background-color: blue;
+	width: 400px;
+	height: 100px;
+}
+
+.sites {
+	text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(79, 57, 57, 0.68);
+}
+
+footer li {
+    float: left; 
+    margin: 0 7px;
+    text-decoration: none;
+    list-style: none;
+    font-color: gray;
+}
+
+footer img {
+	height: 25px;
+	width: auto;
+
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    cursor: auto;
+    color: gray;
+}
